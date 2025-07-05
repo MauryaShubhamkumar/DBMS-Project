@@ -1,32 +1,62 @@
-Health Records Management System
-A web-based application built using Streamlit and MySQL to manage patient records, doctor appointments, lab tests, billing, and wallet transactions.
+# 🏥 Health Records Management System
 
-Features:
-  Authentication
-    Sign up and login for:
-      Patients
-      Doctors
-      Admins
+A **web-based health management system** built using **Streamlit** and **MySQL**, designed to streamline medical workflows. It allows patients, doctors, and administrators to efficiently manage appointments, medical records, lab tests, billing, and wallet transactions — all through a clean and simple interface.
 
-Appointment Management:
-  Create, update, and delete appointments
-  View appointments as a patient or doctor
-  Admin access to all appointments
+---
 
-Medical Records:
-  Doctors can add, update, and delete medical records
-  Patients can view their medical records
-  Admin can view all medical records
+## 🔑 Features
 
-Lab Tests & Results:
-  Admin can create and manage lab tests
-  Doctors can assign tests and add results
-  Patients can view their test results
-  Admins can view and manage lab tests and results
+### 🔐 Authentication System
+Secure login and registration for three user roles:
+- 👤 **Patients**
+- 🩺 **Doctors**
+- 🛠️ **Admins**
 
-Wallet & Billing:
-  Wallet system for patients and admin
-  Pay bills using wallet
-  Doctors can generate bills
-  Admin can view and manage billing records
+---
 
+### 📅 Appointment Management
+- Patients can **book**, **update**, or **cancel** appointments.
+- Doctors can **view** and **manage** their own schedules.
+- Admins have access to **all appointments** for monitoring and management.
+
+---
+
+### 📋 Medical Records
+- Doctors can **add**, **update**, and **delete** patient records.
+- Patients can **view** their own medical history.
+- Admins have **global access** to all medical records.
+
+---
+
+### 🔬 Lab Tests & Results
+- Admins can **create** and **manage** lab test types.
+- Doctors can **assign tests** and **upload results** for patients.
+- Patients can **view** their test results securely.
+- Full **admin control** over all test-related data.
+
+---
+
+### 💳 Wallet & Billing
+- 💼 **Wallet system** for both **patients** and **admins**
+- 🧾 Patients can **pay bills** securely using their wallet balance
+- 🩺 **Doctors** can **generate bills** after consultation or lab work
+- 🛠️ **Admins** can **view and manage** all billing records
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool           | Purpose                          |
+|----------------|----------------------------------|
+| **Streamlit**  | Web Interface (Frontend)         |
+| **MySQL**      | Database Management (Backend)    |
+| **Python**     | Application Logic                |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/health-records-system.git
+cd health-records-system
